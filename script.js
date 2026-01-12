@@ -12,10 +12,12 @@ submitBtn.onclick = function(){
     let contentLink = document.getElementById("ContentLink").value;
     let content =(
         `
-    Name: ${NameText}
-    Task ✔️: ${Task}
-    Post ✔️: ${Post}
-    Content Link : ${contentLink}
+        Clocking In 
+        Read ✅
+        Write ✅
+        Meditate ✅
+        Research ✅
+        Implement ✅
         `
     )
     navigator.clipboard.writeText(content);
@@ -28,4 +30,5 @@ submitBtn.onclick = function(){
 
         
         
+
     
