@@ -7,15 +7,14 @@ const submitBtn = document.getElementById("submitBtn");
 
 submitBtn.onclick = function(){
     let NameText = document.getElementById("NameText").value;
-    let Task = document.getElementById("Task").value;
-    let Post = document.getElementById("Post").value;
-    let contentLink = document.getElementById("ContentLink").value;
     let content =(
         `
-    Name: ${NameText}
-    Task ✔️: ${Task}
-    Post ✔️: ${Post}
-    Content Link : ${contentLink}
+    ${NameText}  Clocking In 
+        Read ✅
+        Write ✅
+        Meditate ✅
+        Research ✅
+        Implement ✅
         `
     )
     navigator.clipboard.writeText(content);
